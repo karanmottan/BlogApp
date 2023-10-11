@@ -1,0 +1,75 @@
+.sidebar {
+  flex: 3;
+  margin: 20px;
+  padding-bottom: 30px;
+  background-color: #fdfbfb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.listContainer{
+  display: flex;
+  flex-direction: column;
+  
+  width: 80%;
+}
+
+.sidebarTitle {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  border-top: 1px solid #a7a4a4;
+  border-bottom: 1px solid #a7a4a4;
+  font-family: "Varela Round", sans-serif;
+  font-size: 12px;
+  color: #222;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  
+}
+
+.listItem{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(204,150,124);
+  font-family: "Varela Round", sans-serif;
+  transition: .2s;
+  
+  width: 100%;
+}
+
+.listItem:hover{
+  transform: scale(1.1);
+}
+
+.sidebarContent{
+  display: flex;
+  flex-direction: row;
+}
+
+.authorClass{
+  margin-right: 4rem;
+  margin-left : 4rem;
+}
+
+.searchTitle{
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
+  border-bottom: 1px solid black;
+}
+
+.categoryClass{
+  margin-right: 4rem;
+}
+
+.topicClass{
+  margin-left: 6rem;
+}

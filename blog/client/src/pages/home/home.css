@@ -1,0 +1,95 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.sortingBox{
+    margin-left: 42rem;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    font-size: 1.2rem;
+}
+
+.dropdownField{
+    margin-right: 1.5rem;
+}
+
+.filterContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+.filterInput{
+    padding: .5rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.submitButton{
+    font-weight: bold;
+    padding: .5rem;
+}
+
+.menu1{
+    position: absolute;
+    left : 56vw;
+    font-weight: bold;
+}
+
+.menu2{
+    position: absolute;
+    left : 63vw;
+    font-weight: bold;
+}
+
+ul#remove {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fieldSelect{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #FFBE7B;
+}
+
+.formSubmit{
+    background-color: yellow;
+}
+
+#field{
+    border: 1px solid white;
+    background-color: #FFBE7B;
+}
+
+.optionSelect{
+    background-color: #EED971;
+}
+
+#option{
+    border: 1px solid white;
+    background-color: #EED971;
+}
+
+.sortButton{
+    background-color: yellow;
+    margin-left: 2rem;
+}
+

@@ -1,0 +1,135 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.singlePostImg {
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+}
+
+.singlePostTitleInput {
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  color: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: wheat;
+}
+
+.singlePostIcon:last-child {
+  color: white;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+  color: white;
+}
+
+.singlePostDesc {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  
+  text-align: start;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.singlePostDescInput {
+  border: none;
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDescInput:focus {
+  outline: none;
+}
+.singlePostButton {
+  width: 100px;
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+.followButton{
+  width: 10vw;
+  padding: .5rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  transition-property: background-color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.followButton:hover{
+  cursor: pointer;
+}
+
+.follow{
+  background-color: red;
+}
+
+.unfollow{
+  background-color: gray;
+}
+
+.readingTime{
+  color:white;
+  margin-bottom: 1rem;
+}
